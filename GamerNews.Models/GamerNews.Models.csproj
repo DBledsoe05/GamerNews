@@ -54,7 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game_Models\GameCreate.cs" />
+    <Compile Include="Game_Models\GameDetail.cs" />
+    <Compile Include="Game_Models\GameEdit.cs" />
+    <Compile Include="Preview_Models\PreviewCreate.cs" />
+    <Compile Include="Preview_Models\PreviewDetail.cs" />
+    <Compile Include="Preview_Models\PreviewEdit.cs" />
+    <Compile Include="Preview_Models\PreviewListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Review_Models\ReviewCreate.cs" />
+    <Compile Include="Review_Models\ReviewDetail.cs" />
+    <Compile Include="Review_Models\ReviewEdit.cs" />
+    <Compile Include="Review_Models\ReviewListItem.cs" />
+    <Compile Include="UserAccount_Models\UserAccountCreate.cs" />
+    <Compile Include="UserAccount_Models\UserAccountDetail.cs" />
+    <Compile Include="UserAccount_Models\UserAccountEdit.cs" />
+    <Compile Include="UserAccount_Models\UserAccountListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -66,8 +81,6 @@
       <Name>GamerNews.Data</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

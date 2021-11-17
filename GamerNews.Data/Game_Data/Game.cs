@@ -11,9 +11,17 @@ namespace GamerNews.Data.Game_Data
     {
         [Key]
         public int GameId { get; set; }
+
+        [Required]
         public string Title { get; set; }
+
+        [Required]
         public string Description { get; set; }
+
+        [Required]
         public string MaturityRating { get; set; }
+
+        [Required]
         public string Platform { get; set; }
     }
 }
