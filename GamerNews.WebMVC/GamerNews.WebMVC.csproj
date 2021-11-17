@@ -253,10 +253,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\GameNews\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\GameNews\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -296,10 +296,6 @@
     <ProjectReference Include="..\GamerNews.Models\GamerNews.Models.csproj">
       <Project>{e959112b-5fa3-40ab-adfd-51edfee741aa}</Project>
       <Name>GamerNews.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GamerNews.Services\GamerNews.Services.csproj">
-      <Project>{62a8e5a3-d50f-46d6-a52b-fe3b200be00c}</Project>
-      <Name>GamerNews.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

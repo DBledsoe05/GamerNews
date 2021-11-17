@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GamerNews.Models.Review_Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,8 @@ namespace GamerNews.WebMVC.Controllers.GamerNews_Controller
         // GET: GameNews
         public ActionResult Index()
         {
-            return View();
+            var model = new ReviewListItem[0];
+            return View(model);
         }
     }
 }

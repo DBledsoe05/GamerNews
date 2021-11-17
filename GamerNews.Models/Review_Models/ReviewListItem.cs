@@ -15,9 +15,5 @@ namespace GamerNews.Models.Review_Models
         public DateTimeOffset DateReleased { get; set; }
 
         public int Rating { get; set; }
-
-        public int GameId { get; set; }
-
-        public int UserAccountId { get; set; }
     }
 }
