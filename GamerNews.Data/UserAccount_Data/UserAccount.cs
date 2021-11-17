@@ -19,7 +19,6 @@ namespace GamerNews.Data.UserAccount_Data
         [Required]
         public string Password { get; set; }
 
-        [Required]
         public string UserId { get; set; }
 
         [ForeignKey("ApplicationUser")]

@@ -22,7 +22,7 @@ namespace GamerNews.Data.Review_Data
         public string Description { get; set; }
 
         [Required]
-        public DateTimeOffset? DateReleased { get; set; }
+        public DateTimeOffset DateReleased { get; set; }
 
         [Required]
         public int Rating { get; set; }

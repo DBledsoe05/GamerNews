@@ -8,6 +8,8 @@ namespace GamerNews.Models.UserAccount_Models
 {
     public class UserAccountEdit
     {
+        public string Name { get; set; }
 
+        public string Password { get; set; }
     }
 }

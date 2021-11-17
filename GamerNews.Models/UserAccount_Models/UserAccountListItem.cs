@@ -8,6 +8,8 @@ namespace GamerNews.Models.UserAccount_Models
 {
     public class UserAccountListItem
     {
+        public string Name { get; set; }
 
+        public string Password { get; set; }
     }
 }
